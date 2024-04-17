@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+#img{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    left: 820px;
+    top: 90px;
+    z-index: -1;
+}
+h1{
+    color: white;
+}
+
+#tittel{
+    position: absolute;
+    left: 400px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 460px;
+}
+
+.sider{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; 
+    grid-template-areas:  
+    "besøk "
+    "utdanning"
+    "jobb "
+    "sted "
+    "hobby";
+    position: relative;
+    top: 150px; 
+    left: 30px;
+}
+
+
+#utdanning{
+    grid-area: utdanning;
+}
+
+#jobb{
+    grid-area: jobb;
+}
+
+#sted{
+    grid-area: sted;
+}
+
+#hobby{
+    grid-area: hobby;
+}
+
+#t1{
+    position: absolute;
+    left: 220px;
+    bottom: 100px;
+    color: white;
+}
+
+li{
+    padding-bottom: 30px;
+}
+
+
